@@ -1,0 +1,31 @@
+body {
+   background: repeating-linear-gradient(
+      45deg,
+      #F8AEFC 0px,
+      #FFF 40px,
+      #CCF 40px,
+      #FCC 80px
+    );
+}
+.box {
+  position: relative;
+  width: 300px;
+  height: 750px;
+  margin: auto;
+  margin-top: 10%;
+}
+.stick {
+  position: absolute;
+  width: 10%;
+  height: 45%;
+  margin-top: 50%;
+  margin-left: 45%;
+  background: linear-gradient(90deg, #350D09, #7E1E15, #350D09);
+}
+.pop {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  background: repeating-radial-gradient(#66ffc9, #00683c 10%, #66ffc9 15%);
+  border-radius: 50%;
+}

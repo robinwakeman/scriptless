@@ -1,0 +1,102 @@
+body {
+  background: #99FFFF;
+}
+.box {
+  //border: 1px dotted black;
+  background: none;
+  width: 200px;
+  height: 300px;
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 10%;
+}
+.pop-stick {
+  //border: 1px dotted black;
+  position: absolute;
+  background: #DEB887;
+  width: 20%;
+  height: 50%;
+  margin-top: 65%;
+  margin-left: 40%;
+  box-shadow: 4px 4px 0 #C7A579;
+}
+.pop-stick-end {
+  //border: 1px dotted black;
+  position: absolute;
+  background: #DEB887;
+  width: 100%;
+  height: 20%;
+  border-radius: 50%;
+  margin-top: 340%;
+  box-shadow: 4px 4px 0 #C7A579;
+}
+.pop-main {
+  //border: 1px dotted black;
+  position: absolute;
+  background: pink;
+  width: 60%;
+  height: 60%;
+  margin-left: 20%;
+  margin-top: 24%;
+  border-radius: 4%;
+  border-right: 1px dotted white;
+}
+.pop-main-depth{
+  //border: 1px dotted black;
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  margin-left: 20%;
+  margin-top: 24%;
+  border-radius: 4%;
+  box-shadow: 8px 6px 0 4px #EBB0BA;
+}
+.pop-top {
+  //border: 1px dotted white;
+  position: absolute;
+  background: pink;
+  width: 100%;
+  height: 30%;
+  border-radius: 50%;
+  margin-top: -18%;
+  border-top: 1px dotted white;
+}
+.pop-top-depth {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  border-radius: 50%;
+  margin-top: -18%;
+  box-shadow: 8px 6px 0 4px #EBB0BA;
+}
+.pop-texture-left{
+  //border: 1px dotted black;
+  position: absolute;
+  background: #FF99FF;
+  width: 20%;
+  height: 90%;
+  margin-top: 6%;
+  margin-left: 20%;
+  box-shadow: inset 4px 0 1px #E38AE3;
+}
+.pop-texture-right{
+  //border: 1px dotted black;
+  position: absolute;
+  background: #FF99FF;
+  width: 20%;
+  height: 90%;
+  margin-top: 6%;
+  margin-left: 60%;
+  box-shadow: inset 4px 0 1px #E38AE3;
+}
+.pop-texture-top {
+  //border: 1px dotted black;
+  position: absolute;
+  background: #FF99FF;
+  width: 100%;
+  height: 10%;
+  border-radius: 40%;
+  margin-top: -20%;
+  box-shadow: inset 4px 6px 1px #E38AE3;
+}

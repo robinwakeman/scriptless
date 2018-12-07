@@ -1,0 +1,96 @@
+:root {
+  //--gradient-under: linear-gradient(135deg, #CFF, #FCC);
+  
+  --gradient-under: linear-gradient(170deg, #3051F1 1%, #C92BB7 40%);
+  
+ --gradient-over: radial-gradient(circle farthest-corner at 35% 110%, #FCDF8F 2%, #FBD377 10%, #FA8E37 25%, #F73344 40%, rgba(0, 0, 0, 0) 65%);
+ 
+}
+.outer-background {
+  position: relative; 
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  margin-top: 10%;
+  border-radius: 20%;
+  background: gray;
+  background: var(--gradient-under, black);
+}
+.outer-background::before {
+   position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  content: '';
+  background: var(--gradient-over, gray);
+  border-radius: 20%;
+}
+.cam-outline {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  background: white;
+  margin: 10%;
+  border-radius: 20%;
+}
+.cam-fill {
+  position: absolute;
+  width: 85%;
+  height: 85%;
+  background: gray;
+  background: var(--gradient-under, black);
+  margin: 7.5%;
+  border-radius: 20%;
+}
+
+.cam-fill::before {
+   position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  content: '';
+  background: var(--gradient-over, gray);
+  border-radius: 20%;
+}
+.lens-outline {
+  position: absolute;
+  width: 65%;
+  height: 65%;
+  background: white;
+  margin: 17.5%;
+  border-radius: 50%;
+}
+.lens-fill {
+  position: absolute;
+  width: 72%;
+  height: 72%;
+  margin: 14%;
+  background: gray;
+  background: var(--gradient-under, black);
+  border-radius: 50%;
+}
+.lens-fill::before {
+   position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  content: '';
+  background: var(--gradient-over, gray);
+  border-radius: 50%;
+}
+.flash {
+  position: absolute; 
+  width: 15%;
+  height: 15%;
+  background: white;
+  margin-left: 75%;
+  margin-top: 8%;
+  border-radius: 50%;
+}
