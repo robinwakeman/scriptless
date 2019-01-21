@@ -11,10 +11,15 @@
 - [Popsicle](https://codepen.io/robinwakeman/full/PxaKyK)
 
 ##### Animations
-- Gradient Background Animation
-- Cube
-- Sunset
+- [Bicycle](https://codepen.io/robinwakeman/full/vvWoEw) (in progress)
+- [Bullfrog](https://codepen.io/robinwakeman/full/pqdQRj)
+- [Sunset](https://codepen.io/robinwakeman/full/BGGqjj)
 
-##### Design Elements
-- Parallax
+##### Design Components
+- Parallax (up next)
 - [Gradient Border](https://codepen.io/robinwakeman/pen/GPpGaV)
+
+##### Static Web Pages
+- [bord.](https://codepen.io/robinwakeman/full/gZOXyj) (in progress)
+- [Coffee Order](https://codepen.io/robinwakeman/full/vQorLG)
+- [PLANTS](https://codepen.io/robinwakeman/full/bOGYxQ)
